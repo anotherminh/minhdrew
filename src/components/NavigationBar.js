@@ -5,24 +5,25 @@ export const NavigationBar = () => {
   return (
     <div className="navigation-container">
       <nav className="nav">
-        <a href="#">Story</a>
-        <a href="#schedule">Schedule</a>
-        <a href="#faqs">FAQs</a>
-        <a href="#faqs">RSVP</a>
+        <a href="/story">Story</a>
+        <a href="/schedule">Schedule</a>
+        <a href="/faqs">FAQs</a>
+        <a href="/rsvp">RSVP</a>
       </nav>
       <div className="title-logo">
-        <h1>Minh + Andrew</h1>
-        <img
-          className="logo"
-          src={logo}
-          alt="minh-and-andrew-wedding-logo"
-          width="100"
-          height="100"
-        />
+        <a className="clickable-title-logo" href="/">
+          <div className="title">Minh + Andrew</div>
+        </a>
+        <a href="/">
+          <img
+            className="logo"
+            src={logo}
+            alt="minh-and-andrew-wedding-logo"
+            width="100"
+            height="100"
+          />
+        </a>
       </div>
-      {/* <div className="rsvp-button-container">
-        <a href="#rsvp">RSVP</a>
-      </div> */}
     </div>
   );
 };
