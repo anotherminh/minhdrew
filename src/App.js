@@ -1,18 +1,14 @@
 import "./App.css";
-import * as components from "./components";
+import { OurStory } from "./components";
+import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <body>
-        <components.NavigationBar />
-
-        <div className="content">
-          <h1>Welcome to my website!</h1>
-          <p>This is the default content for the website.</p>
-        </div>
-      </body>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<OurStory />} />
+      </Routes>
+    </Router>
   );
 }
 
