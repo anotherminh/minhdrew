@@ -21,6 +21,14 @@ export const Schedule = () => {
           <li>Reception & Dinner is at 6:00pm</li>
         </ul>
       </div>
+      <div>
+        <b>Sunday Brunch</b>
+        <ul>
+          <li>Where? 255 Tim Ct., Danville CA</li>
+          <li>When? April 2nd, 2023</li>
+          <li>We'll have fruits & bagels from 10am to 1pm.</li>
+        </ul>
+      </div>
     </Page>
   );
 };
