@@ -8,7 +8,13 @@ export const NavigationBar = () => {
         <a href="/story">Story</a>
         <a href="/schedule">Schedule</a>
         <a href="/faqs">FAQs</a>
-        <a href="/rsvp">RSVP</a>
+        <a
+          target="_blank"
+          href="https://forms.gle/6eLHMno78bijLBtC6"
+          rel="noreferrer"
+        >
+          RSVP
+        </a>
       </nav>
       <div className="title-logo">
         <a className="clickable-title-logo" href="/">

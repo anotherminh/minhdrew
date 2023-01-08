@@ -26,7 +26,7 @@ export const Schedule = () => {
         <ul>
           <li>Where? 255 Tim Ct., Danville CA</li>
           <li>When? April 2nd, 2023</li>
-          <li>We'll have fruits & bagels from 10am to 1pm.</li>
+          <li>We'll have fruits & bagels from 10am to noon.</li>
         </ul>
       </div>
     </Page>
