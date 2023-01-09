@@ -1,13 +1,18 @@
 import React, { useState } from "react";
 import { Page } from "./Page";
 import firstDate from "../assets/first_date.png";
-import firstMushroomHunt from "../assets/first_mushroom_hunt.jpeg";
 import firstMushroomHunt2 from "../assets/first_mushroom_hunt2.jpg";
-import firstMushroomHunt3 from "../assets/first_mushroom_hunt3.jpg";
-import firstBm from "../assets/first_bm.jpg";
 import firstBm2 from "../assets/first_bm_2.jpeg";
 import firstBm3 from "../assets/first_bm_3.jpeg";
 import andrewDancing from "../assets/andrew_dancing.gif";
+import deathValley from "../assets/death_valley.jpeg";
+import razorShortage from "../assets/razor_shortage.jpeg";
+import sfPlants from "../assets/sf_plants.jpeg";
+import nycFall from "../assets/ny_fall.jpeg";
+import nycWinter from "../assets/nyc_winter.jpeg";
+import vancouver from "../assets/vancouver.jpeg";
+import nyers from "../assets/nyer_doing_ny_things.jpeg";
+import californiaSpring from "../assets/california_spring.jpeg";
 
 const PageTurn = ({ hide, direction, onClick }) => {
   return (
@@ -35,7 +40,7 @@ const StoryCaption = ({ children }) => (
 );
 const StoryPage = ({ src, caption, alt }) => (
   <div className="story">
-    <div style={{ height: "80%" }}>
+    <div style={{ height: "80%", display: "flex" }}>
       <img alt={alt} src={src} />
     </div>
     <StoryCaption>{caption}</StoryCaption>
@@ -50,28 +55,13 @@ export const OurStory = () => {
       caption: "First date - Thoroughbread coffee shop in San Francisco",
     },
     {
-      src: firstMushroomHunt,
-      alt: "first-mushroom-hunt-waterfall",
-      caption: "First mushroom hunt - ?",
-    },
-    {
       src: firstMushroomHunt2,
       alt: "first-mushroom-hunt-andrew",
-      caption: "First mushroom hunt - ?",
-    },
-    {
-      src: firstMushroomHunt3,
-      alt: "first-mushroom-hunt-haul",
-      caption: "First mushroom hunt - the haul",
+      caption: "A successful mushroom hunt - near Lake Almanor, CA",
     },
     {
       src: firstBm2,
       alt: "first-burning-man",
-      caption: "Our first burning man together in 2018",
-    },
-    {
-      src: firstBm,
-      alt: "first-burning-man-2",
       caption: "Our first burning man together in 2018",
     },
     {
@@ -80,13 +70,54 @@ export const OurStory = () => {
       caption: "Our first burning man together in 2018",
     },
     {
+      src: sfPlants,
+      alt: "plant-shopping-sf",
+      caption: "Plant-shopping in SF",
+    },
+    {
       src: andrewDancing,
       alt: "andrew-dancing",
       caption: "Celebrating our friends getting married",
     },
+    {
+      src: deathValley,
+      alt: "death-valley",
+      caption:
+        "After this photo we threw a football over them mountains (in Death Valley)",
+    },
+    {
+      src: razorShortage,
+      alt: "razor-shortage",
+      caption:
+        "During the great razor shortage of 2021 (following Andrew's bike trip from Seattle to SF)",
+    },
+    {
+      src: nyers,
+      alt: "new-yorker",
+      caption: "New New Yorkers doing New York things",
+    },
+    {
+      src: vancouver,
+      alt: "minh-vancouver",
+      caption: "Exploring Stanley Park in Vancouver",
+    },
+    {
+      src: californiaSpring,
+      alt: "cali-spring",
+      caption: "Spring colors in California",
+    },
+    {
+      src: nycFall,
+      alt: "nyc-fall",
+      caption: "Fall colors in New York",
+    },
+    {
+      src: nycWinter,
+      alt: "nyc-winter",
+      caption: "Attempting to go outside in NYC during the winter months",
+    },
   ];
   const [page, setPage] = useState(0);
-  console.log({ page });
 
   return (
     <Page>

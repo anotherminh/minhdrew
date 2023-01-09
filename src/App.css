@@ -98,11 +98,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  /* height: 60vh; */
+  height: 60vh;
+  width: 50%;
 }
 
 .story img {
   width: 400px;
+  justify-self: center;
+  object-fit: scale-down;
 }
 
 /* for smaller screens */
@@ -117,6 +120,7 @@
   }
   .story img {
     width: 80vw;
+    justify-self: center;
   }
   .page-content {
     height: unset;

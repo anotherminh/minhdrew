@@ -5,7 +5,7 @@ export const NavigationBar = () => {
   return (
     <div className="navigation-container">
       <nav className="nav">
-        <a href="/story">Story</a>
+        <a href="/story">Us</a>
         <a href="/schedule">Schedule</a>
         <a href="/faqs">FAQs</a>
         <a

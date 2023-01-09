@@ -16,40 +16,53 @@ export const FAQs = () => {
       <>
         <FAQSection title="Where should I stay?">
           <p>
-            We recommend the{" "}
+            Should you choose to stay in Danville, we recommend the{" "}
             <a href="https://www.danvillesycamoreinn.com/en">Best Western</a> in
-            downtown Danville, which is also walkable to the wedding venue.
+            downtown Danville, which is walkable to the wedding venue and quaint
+            downtown Danville. Another option is the{" "}
+            <a href="https://www.marriott.com/en-us/hotels/oaksr-san-ramon-marriott/overview/">
+              San Ramon Marriott
+            </a>
+            , which is a 10min drive away.
           </p>
           <p>
-            Another option is the San Ramon Marriott which is 10 minutes drive
-            away. You can also stay in San Francisco/Berkeley/Oakland, which is
-            about 20-35min drive away. Alternatively, for a more adventurous
-            option, you can also camp in the neighbor’s backyard!
+            You can also stay in San Francisco/Berkeley/Oakland, which are
+            20-35min away by car. Contact us if you would like to discuss the
+            more adventurous option of camping in a neighbor's backyard - we
+            have all the necessary equipment for that.
           </p>
-          <p>
-            It's also possible to stay in San Francisco/Oakland/Berkeley, all of
-            which are about 30-50min away from Danville by car.
-          </p>
+          <p></p>
         </FAQSection>
         <FAQSection title="What's the best airport?">
           <p>
-            The two best options are OAK or SFO. There's not a huge difference
-            between them, as both are accessible via public transit (BART) and
-            are about equidistant from Danville.
+            The two best options are OAK or SFO. OAK is a bit closer to
+            Danville, but both have BART train access or are within 45min by
+            car.
           </p>
         </FAQSection>
         <FAQSection title="How do I get around?">
           <p>
-            If you're staying at the Danville Best Western, it’s a nice 30-min
-            walk via the Iron Horse Trail to the venue. Uber/Lyft is always an
-            option as well.
+            Danville is a 10min drive from the nearest BART train station in
+            Walnut Creek. The easiest way to get to and from the train station
+            is probably Uber/Lyft, but for NUMTOTS there is a bus. If you take
+            the Danville bus, we will name our first child after you.
+            <p></p>
+            If you're staying at the Danville Best Western, it’s a nice 30min
+            walk via the Iron Horse Trail to the venue.
           </p>
         </FAQSection>
         <FAQSection title="Do you have a wedding registry?">
           <p>
-            Your presence with us on our special is the best gift. If you
-            insist, please send a gift on our behalf to [these charities] which
-            work on [xyz].
+            No gifts, please. Your attendance is the best and only gift that we
+            will accept. If you insist, please send a gift on our behalf to{" "}
+            <a
+              target="_blank"
+              href="https://thehumaneleague.org/"
+              rel="noreferrer"
+            >
+              The Humane League
+            </a>
+            , which work on ending the abuse of animals raised for food.
           </p>
         </FAQSection>
       </>

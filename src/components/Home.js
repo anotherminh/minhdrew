@@ -13,7 +13,9 @@ export const Home = () => {
           justifyContent: "space-between",
         }}
       >
-        <div style={{ padding: "20px" }}>We're getting married!!</div>
+        <div style={{ padding: "20px" }}>
+          On April 1st, we're getting married!!
+        </div>
         <img style={{ height: "50vh" }} src={minhdrew} alt="minh-andrew" />
       </div>
     </Page>
