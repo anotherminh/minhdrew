@@ -126,9 +126,6 @@
     height: unset;
     min-height: fit-content;
   }
-}
-
-@media (max-height: 700px) {
   .footer {
     margin-top: 5px;
   }
@@ -138,5 +135,6 @@
   }
   .story {
     height: 60vh;
+    width: unset;
   }
 }
