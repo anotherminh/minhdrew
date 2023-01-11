@@ -16,9 +16,11 @@ export const Schedule = () => {
         <b>Wedding Celebration</b>
         <ul>
           <li>Where? 255 Tim Ct, Danville CA (Andrew's parents' house)</li>
-          <li>When? April 1, 2023</li>
-          <li>Please arrive for the ceremony by 4:00pm</li>
-          <li>Reception & Dinner is at 6:00pm</li>
+          <li>When? April 1, 2023 @ 4pm</li>
+          <li>
+            Please arrive on time for the ceremony. Dinner and reception to
+            follow.
+          </li>
         </ul>
       </div>
       <div>

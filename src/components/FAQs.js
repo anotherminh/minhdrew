@@ -45,7 +45,9 @@ export const FAQs = () => {
             Danville is a 10min drive from the nearest BART train station in
             Walnut Creek. The easiest way to get to and from the train station
             is probably Uber/Lyft, but for NUMTOTS there is a bus. If you take
-            the Danville bus, we will name our first child after you.
+            the Danville bus, we will name our first child after you. The bus
+            from BART to Danville stops 1/4 mile from our house, and across the
+            street from the Best Western.
             <p></p>
             If you're staying at the Danville Best Western, it’s a nice 30min
             walk via the Iron Horse Trail to the venue.

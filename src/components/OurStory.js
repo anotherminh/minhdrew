@@ -120,7 +120,7 @@ export const OurStory = () => {
   const [page, setPage] = useState(0);
 
   return (
-    <Page>
+    <Page hideHead={true}>
       <div
         style={{
           display: "flex",
