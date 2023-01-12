@@ -10,7 +10,7 @@ export const Page = ({ hideHead, children }) => {
     <div className="page-container">
       <NavigationBar />
       <div className="page-content">{children}</div>
-      {!!hideHead && (
+      {!hideHead && (
         <div className="footer">
           <RotatingHead src={minhHead} alt="minh-head" />
           <RotatingHead src={fauciHead} alt="fauci-head" />
