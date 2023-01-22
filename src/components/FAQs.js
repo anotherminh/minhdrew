@@ -19,11 +19,26 @@ export const FAQs = () => {
             Should you choose to stay in Danville, we recommend the{" "}
             <a href="https://www.danvillesycamoreinn.com/en">Best Western</a> in
             downtown Danville, which is walkable to the wedding venue and quaint
-            downtown Danville. Another option is the{" "}
-            <a href="https://www.marriott.com/en-us/hotels/oaksr-san-ramon-marriott/overview/">
-              San Ramon Marriott
-            </a>
-            , which is a 10min drive away.
+            downtown Danville.
+          </p>
+          <p>
+            If you don't mind a short drive, then two other good options are
+            <ul>
+              <li>
+                The{" "}
+                <a href="https://www.marriott.com/en-us/hotels/oaksr-san-ramon-marriott/overview/">
+                  San Ramon Marriott
+                </a>
+                , which is a 10min drive away.
+              </li>
+              <li>
+                The{" "}
+                <a href="https://www.hyatt.com/en-US/hotel/california/hyatt-house-san-ramon/oakxs">
+                  Hyatt House
+                </a>{" "}
+                (also in San Ramon) which is an 8 minute drive away.
+              </li>
+            </ul>
           </p>
           <p>
             You can also stay in San Francisco/Berkeley/Oakland, which are
