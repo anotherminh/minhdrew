@@ -71,10 +71,10 @@ export const FAQs = () => {
         <FAQSection title="What should I wear?">
           <p>Friday night welcome dinner: casual.</p>
           <p>
-            Saturday ceremony and dinner: garden party/semi-formal (but heels
-            are probably not the best idea because of the lawn, and also because
-            Minh is short so what are you trying to do, make her look even
-            shorter?).
+            Saturday ceremony and dinner: garden party/semi-formal. However,
+            heels are probably not the best idea because of the lawn. And also
+            because Minh is short so what are you trying to do, make her look
+            even shorter?
           </p>
         </FAQSection>
         <FAQSection title="Do you have a wedding registry?">
