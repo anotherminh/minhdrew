@@ -68,6 +68,15 @@ export const FAQs = () => {
             walk via the Iron Horse Trail to the venue.
           </p>
         </FAQSection>
+        <FAQSection title="What should I wear?">
+          <p>Friday night welcome dinner: casual.</p>
+          <p>
+            Saturday ceremony and dinner: garden party/semi-formal (but heels
+            are probably not the best idea because of the lawn, and also because
+            Minh is short so what are you trying to do, make her look even
+            shorter?).
+          </p>
+        </FAQSection>
         <FAQSection title="Do you have a wedding registry?">
           <p>
             No gifts, please. Your attendance is the best and only gift that we
