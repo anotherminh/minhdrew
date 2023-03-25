@@ -7,8 +7,11 @@ export const Schedule = () => {
       <div>
         <b>Welcome Dinner for out-of-towners</b>
         <ul>
-          <li>Where? Danville, CA, restaurant TBD</li>
-          <li>When? March 31, 2023 @ 7pm</li>
+          <li>
+            Where? [Danville Harvest](https://goo.gl/maps/98T8uWXop4pfJqoq5),
+            500 Hartz Ave
+          </li>
+          <li>When? March 31, 2023 @ 6pm</li>
           <li>Please let us know in your RSVP if you plan on attending!</li>
         </ul>
       </div>
